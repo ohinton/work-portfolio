@@ -1,16 +1,56 @@
-.center-block {
+body {
+  margin: 0px;
+  padding: 20px;
+  background: #ffffff;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
   display: block;
-  max-width: 20%;
-  padding-top: 50px;
 }
 
-.links {
-  text-align: center;
-  padding-top: 25px;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 25px;
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
 .project-tiles {
   text-align: center;
+}
+
+div {
+    display: block;
+}
+
+#container {
+    width: 980px;
+    margin: auto;
+}
+
+#left {
+  width: 180px;
+  float: left;
+  padding: 25px 10px 0px 10px;
+  border-top: 2px solid #000000;
+}
+
+#logo {
+    max-width: 160px;
+}
+
+#pages {
+    list-style: none;
+    padding: 0px;
+    display: block;
+    border-top: 1px solid #cccccc;
+}
+
+#pages li {
+  border-bottom: 1px solid #cccccc;
+}
+
+#description {
+  padding-top: 20px;
 }

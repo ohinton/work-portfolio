@@ -1,14 +1,25 @@
-<div class="container">
-  <img class="img-responsive" src="/img/oh-logo-01.png" alt="Olivia Hinton's logo">
-</div>
+<body>
 
-<div class="container-fluid links">
-  <div class="row">
-    <div class="col-md-3">{{#link-to 'web'}}<p>web</p>{{/link-to}}</div>
-    <div class="col-md-3">{{#link-to 'print'}}<p>print</p>{{/link-to}}</div>
-    <div class="col-md-3"><a href="https://www.linkedin.com/in/omhinton" target="_blank"><p>resume</p></a></div>
-    <div class="col-md-3">{{#link-to 'connect'}}<p>connect</p>{{/link-to}}</div>
-  </div>
+<div id="container">
+
+<div id="left">
+  {{#link-to 'index'}}<img id="logo" src="/img/oh-logo.png" alt="Olivia Hinton's logo">{{/link-to}}
+
+  <p id="description">Olivia Hinton's portfolio of work</p>
+
+  <ul id="pages">
+    <li>{{#link-to 'web'}}<p>web</p>{{/link-to}}</li>
+
+    <li>{{#link-to 'print'}}<p>print</p>{{/link-to}}</li>
+
+    <li><a href="https://www.linkedin.com/in/omhinton" target="_blank"><p>resume</p></a></li>
+
+    <li>{{#link-to 'connect'}}<p>connect</p>{{/link-to}}</li>
+  </ul>
+
+</div>
 </div>
 
 {{outlet}}
+
+</body>
