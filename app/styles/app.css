@@ -1,6 +1,6 @@
 .center-block {
   display: block;
-  max-width: 25%;
+  max-width: 20%;
   padding-top: 50px;
 }
 
@@ -9,4 +9,8 @@
   padding-top: 25px;
   font-family: 'PT Sans', sans-serif;
   font-size: 25px;
+}
+
+.project-tiles {
+  text-align: center;
 }
