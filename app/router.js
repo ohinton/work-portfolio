@@ -8,8 +8,8 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('connect');
-  this.route('web');
-  this.route('print');
+  this.route('portfolio');
+  this.route('resume');
 });
 
 export default Router;
