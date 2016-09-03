@@ -1,23 +1,19 @@
+<div class="topper"></div>
+
 <body>
 
-<div id="container">
+<div id="nav">
 
-<div id="left">
-  {{#link-to 'index'}}<img id="logo" src="/img/oh-logo.png" alt="Olivia Hinton's logo">{{/link-to}}
-
-  <p id="description">Olivia Hinton's portfolio of work</p>
-
-  <ul id="pages">
+  <ul class ="list-inline">
     <li>{{#link-to 'web'}}<p>web</p>{{/link-to}}</li>
-
+    <li> | </li>
     <li>{{#link-to 'print'}}<p>print</p>{{/link-to}}</li>
-
+    <li> | </li>
     <li><a href="https://www.linkedin.com/in/omhinton" target="_blank"><p>resume</p></a></li>
-
+    <li> | </li>
     <li>{{#link-to 'connect'}}<p>connect</p>{{/link-to}}</li>
   </ul>
 
-</div>
 </div>
 
 {{outlet}}
