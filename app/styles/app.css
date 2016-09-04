@@ -58,12 +58,18 @@ body {
 }
 
 #resume {
-text-align: center;
+  text-align: center;
 }
 
 #resume-logo {
   float: left;
   max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#resume-logo:hover {
+  content: url("/img/oh-headshot.png");
 }
 
 @media only screen and (max-width: 767px) {
@@ -81,4 +87,11 @@ text-align: center;
 
 .btn {
   width: 200px;
+  font-size: 15px;
+  letter-spacing: 4px;
+  color: #9E9E9E;
+}
+
+#connect {
+  text-align: center;
 }
