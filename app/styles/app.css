@@ -41,7 +41,7 @@ body {
   text-align: center;
 }
 
-#logo {
+#index-logo {
   max-width: 25%;
   display: block;
   margin-left: auto;
@@ -55,4 +55,30 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+#resume {
+text-align: center;
+}
+
+#resume-logo {
+  float: left;
+  max-width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  #resume-logo {
+    padding-bottom: 20px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#linkedin {
+  padding-bottom: 20px;
+}
+
+.btn {
+  width: 200px;
 }
