@@ -68,10 +68,6 @@ body {
   margin-right: auto;
 }
 
-#resume-logo:hover {
-  content: url("/img/oh-headshot.png");
-}
-
 @media only screen and (max-width: 767px) {
   #resume-logo {
     padding-bottom: 20px;
