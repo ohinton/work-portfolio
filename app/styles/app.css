@@ -89,6 +89,12 @@ body {
   color: #9E9E9E;
 }
 
+.btn-github {
+  vertical-align: bottom;
+  float:none;
+  display: table-cell;
+}
+
 #connect {
   text-align: center;
 }
