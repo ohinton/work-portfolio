@@ -1,6 +1,6 @@
 # Portfolio
 
-Olivia Hinton's work portfolio. 
+Olivia Hinton's work portfolio.
 
 ## Prerequisites
 
@@ -40,7 +40,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+Deploying to gh-pages: https://developer.mozilla.org/en-US/Apps/Fundamentals/Modern_web_app_architecture/Publishing_your_app
 
 ## Further Reading / Useful Links
 
